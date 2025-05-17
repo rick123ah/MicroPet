@@ -53,3 +53,10 @@ input.onLogoEvent(TouchButtonEvent.Touched, function () {
 })
 let Hunger = 0
 basic.clearScreen()
+basic.showLeds(`
+    . . . . .
+    . # . # .
+    . . . . .
+    # . . . #
+    . # # # .
+    `)
